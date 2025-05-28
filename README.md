@@ -1,6 +1,8 @@
 # CTF Instance Runner
 
-A Flask-based web application for managing temporary isolated CTF challenge instances using Docker containers.
+![](./static/app.png)
+
+A simple web application for managing temporary isolated CTF challenge instances using Docker containers.
 
 ## Quick Start with Docker Hub
 
