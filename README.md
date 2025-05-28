@@ -14,7 +14,7 @@ Create your project directory like this:
 my-ctf-challenge/
 ├── docker-compose.yml          # Main runner config
 ├── .env                        # Environment variables
-├── start.sh                    # Setup script (optional)
+├── start.sh                    # Runner start script
 └── chall/                      # Your challenge files
     ├── docker-compose.yml      # Challenge Docker config
     ├── start.sh                # Start script
@@ -119,23 +119,6 @@ Run the runner start script:
 ```bash
 ./start.sh
 ```
-
-This script will:
-
--   Make challenge scripts executable
--   Start the CTF runner with Docker Compose
-
-Alternatively, run manually:
-
-```bash
-# Make scripts executable
-chmod +x chall/start.sh chall/stop.sh
-
-# Start the runner
-docker-compose up -d
-```
-
-Access your CTF runner at `http://localhost:5000` (or your configured RUNNER_PORT).
 
 ## Environment Variables
 
