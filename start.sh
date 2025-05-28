@@ -4,4 +4,4 @@
 chmod +x chall/start.sh chall/stop.sh
 
 # Start the runner
-docker-compose up -d
+docker-compose up --build -d
