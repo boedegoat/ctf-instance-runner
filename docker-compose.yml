@@ -1,5 +1,5 @@
 services:
-  ctf-runner:
+  ctf-instance-runner:
     build: .
     ports:
       - "${RUNNER_PORT}:80"
